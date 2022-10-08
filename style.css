@@ -1,0 +1,50 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+table{
+    background-color: blueviolet;
+    border-spacing: 10px;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    border: 2px solid black;
+}
+
+table .btn{
+    background-color: yellow;
+    color: black;
+    width: 100px;
+    line-height: 300%;
+    font-size: 150%;
+}
+
+.btn:hover{
+    background-color: rgb(224, 138, 25);
+    cursor: pointer;
+}
+
+#islem, #gosterge {
+    padding: 2%;
+    text-align: right;
+    background-color: bisque;
+}
+
+#islem {
+    height: 50px;
+    line-height: 200%;
+    font-size: 150%;
+}
+
+#gosterge {
+    height: 35px;
+    line-height: 150%;
+    background-color: cornsilk;
+}
